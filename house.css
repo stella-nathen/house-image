@@ -1,0 +1,338 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #cfe8ff;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mainhouse {
+    width: 250px;
+    height: 200px;
+    background: #f5f5dc;
+    position: relative;
+    z-index: 3;
+}
+.doorBlock{
+    width:65px;
+    height: 115px;
+    position: absolute;
+    background: #6d360f;
+    left: 37%;
+    bottom:0%;
+ 
+}
+.doorTop{
+    width:50px;
+    height: 30px;
+    position: absolute;
+    background: #8b4513;
+    left: 40%;
+    bottom:39%;
+ 
+}
+.doorBottom{
+    width:50px;
+    height: 64px;
+    position: absolute;
+    background: #8b4513;
+    left: 40%;
+    bottom:3%;
+ 
+}
+
+.backhouse{
+   width: 475px;
+   height: 150px;
+   background: #cdcdaf;
+   position: absolute;
+   z-index:2;
+   bottom: 43%;
+}
+
+.roof {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 125px solid transparent;
+    border-right: 125px solid transparent;
+    border-bottom: 100px solid #a0522d;
+    left: 0;
+    bottom: 100%;
+}
+.roofsecond{
+  position: absolute;
+    left: 0; 
+    bottom: 100%;
+    width: 430px; 
+    height: 0;
+    
+   
+    border: 25px solid transparent; 
+    border-bottom: 75px solid #8b4513;
+    border-top: 0;
+    
+}
+.windowLglass{
+      left: 35px;
+      bottom: 30%;
+      width: 50px;
+      height: 75px;
+      background: #519aa6;
+      background: linear-gradient(90deg,rgba(81, 154, 166, 1) 0%, rgba(232, 251, 255, 1) 26%, rgba(117, 197, 209, 1) 100%);
+      position: absolute;
+      z-index:4;
+}
+.windowLFrame {
+    left: 32px;
+    bottom: 30%;
+    width: 45px;
+    height: 70px;
+    background-color: transparent; 
+    border: 5px solid #6d360f;  
+    position: absolute;
+      z-index:4;   
+}
+.windowLvertical{
+    left:56px;
+    bottom: 30%;
+    width:5px;
+    height: 75px;
+    position: absolute;
+    background: #6d360f;
+    z-index:5;
+
+}
+.windowLhorizontal{
+    left:32px;
+    bottom: 54%;
+    width:50px;
+    height: 5px;
+    position: absolute;
+    background: #6d360f;
+    z-index:5;
+
+}
+
+.windowRglass{
+      right: 35px;
+      bottom: 30%;
+      width: 50px;
+      height: 75px;
+      background: #519aa6;
+      background: linear-gradient(90deg,rgba(81, 154, 166, 1) 0%, rgba(232, 251, 255, 1) 26%, rgba(117, 197, 209, 1) 100%);
+      position: absolute;
+      z-index:4;
+}
+.windowRFrame {
+    right: 32px;
+    bottom: 30%;
+    width: 45px;
+    height: 70px;
+    background-color: transparent; 
+    border: 5px solid #6d360f;  
+    position: absolute;
+      z-index:4;   
+}
+.windowRvertical{
+    right:56px;
+    bottom: 30%;
+    width:5px;
+    height: 75px;
+    position: absolute;
+    background: #6d360f;
+    z-index:5;
+
+}
+.windowRhorizontal{
+    right:32px;
+    bottom: 54%;
+    width:50px;
+    height: 5px;
+    position: absolute;
+    background: #6d360f;
+    z-index:5;
+
+}
+.borderL{
+  position:absolute;
+  width:112.5px;
+  height: 10px;
+  background: #4a3a2c;
+  bottom: 0%;
+  left: 0%;
+
+}
+.borderR{
+  position: absolute;
+  width:112.5px;
+  height: 10px;
+  background: #4a3a2c;
+  bottom: 0%;
+  right: 0%;
+
+}
+
+.bordercenterL{
+  position:absolute;
+  width: 92.5px;
+  height: 14px;
+  background: #66503d;
+  bottom: 0%;
+  z-index: 5;
+  right: 0;
+}
+.bordercenterR{
+  position:absolute;
+  width: 92.5px;
+  height: 14px;
+  background: #66503d;
+  bottom: 0%;
+  z-index: 5;
+  left: 0;
+}
+
+.circleWindow{
+position: absolute;
+ width: 60px;
+  height: 60px;
+  background: #6bb4c0;
+    background: linear-gradient(
+        90deg, 
+        rgba(107, 180, 192, 1) 0%,  
+        rgba(255, 255, 255, 1) 20%,  
+        rgba(145, 218, 230, 1) 100% 
+    );
+  border-radius: 50%;
+  left:37.5%;
+  bottom: 64%;
+}
+
+.circleFrame {
+    left: 37%;
+    bottom: 64%;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background-color: transparent; 
+    border: 5px solid #6d360f;  
+    position: absolute;
+       
+}
+.circleHorizontal {
+    left: 38%;
+    bottom: 79%;
+    width: 57px;
+    height: 4px;
+    position: absolute;
+    background: #6d360f;
+    z-index: 2;
+
+}
+.circleVertical {
+    left: 49%;
+    bottom: 64%;
+    width: 4px;
+    height: 59.5px;
+    position: absolute;
+    background: #6d360f;
+    z-index: 2;
+
+}
+
+.chimney{
+  left: 10%;
+  bottom: 123%;
+  width: 34px;
+  height:50px;
+  position: absolute;
+  background: #4a3a2c;
+  z-index: 4;
+  
+}
+.smokeone{
+  left: 12%;
+  bottom: 158%;
+  width: 25px;
+  height:25px;
+  position: absolute;
+  background: #a7b4b4;
+  z-index: 4;
+  border-radius: 50%;
+  
+}
+.smoketwo {
+  left: 10%;
+  bottom: 168%;
+  width: 23px;
+  height:23px;
+  position: absolute;
+  background: #bfc9c9;
+  z-index: 5;
+  border-radius: 50%;
+  
+}
+
+.smokethree{
+  left: 12%;
+  bottom: 176%;
+  width: 20px;
+  height:20px;
+  position: absolute;
+  background: #b5c1c1;
+  z-index: 4;
+  border-radius: 50%;
+  
+}
+.smokefour{
+  left: 8%;
+  bottom: 183%;
+  width: 18px;
+  height:18px;
+  position: absolute;
+  background: #d8dede;
+  z-index: 4;
+  border-radius: 50%;
+  
+}
+.doorknob{
+  right: 14%;
+  bottom: 48%;
+  width: 10px;
+  height:10px;
+  position: absolute;
+  background: #7b7d34;
+background: linear-gradient(90deg, rgba(123, 125, 52, 1) 0%, rgba(252, 252, 204, 1) 46%, rgba(199, 190, 60, 1) 100%);
+  z-index: 4;
+  border-radius: 50%;
+  
+}
+.path{
+  left:8.5%;
+  bottom: -43.5%;
+  width: 55px;
+  height:50px;
+  position: absolute;
+  background-color: #a7b4b4;
+  background-image: 
+    radial-gradient(circle at 2px 2px, rgba(255,255,255,0.05) 1px, transparent 0);
+  background-size: 4px 4px;
+ z-index: 4;
+}
+
+
+.ground {
+    width: 600px;
+    height: 200px;
+    background: green;
+    border-radius: 250px / 100px;
+    margin-top: -150px;
+    z-index: 1;
+}
